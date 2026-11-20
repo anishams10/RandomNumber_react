@@ -1,0 +1,108 @@
+:root {
+  --card: #white;
+  --primary: #6558D3;
+  --bg: #dfdafe;
+  --border: #796a8d;
+  --text:rgb(42, 42, 42);
+  --secondarytext: rgb(94, 94, 94);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+}
+
+.component{
+  margin: 40px 28px;
+  padding: 40px;
+  background-color: var(--card);
+  border: var(--border) 0.8px solid;
+  border-radius: 20px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: rgb(195, 195, 195) 0.1px solid;
+}
+
+.icon{
+  padding: 4px;
+  background-color: var(--bg);
+  border-radius: 8px;
+}
+
+.label{
+  padding: 8px 16px;
+  color: green !important;
+  background-color: rgb(215, 247, 215);
+  border-radius: 20px;
+  align-content: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.content__subtitle{
+  color: var(--secondarytext);
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 40px;
+  margin: 12px;
+  width: 80%;
+  background-color: var(--bg);
+  border-radius: 20px;
+}
+
+.card h3{
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card h1{
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.card p{
+  font-size: 12px;
+  color: var(--secondarytext);
+  font-weight: normal;
+}
+
+.btn{
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 85%;
+  padding: 10px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.message{
+  color: var(--secondarytext);
+  font-size: 12px;
+}
